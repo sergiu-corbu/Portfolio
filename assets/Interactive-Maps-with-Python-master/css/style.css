@@ -1,0 +1,111 @@
+.bracket{
+    color:#427fab;
+    width: 10px;
+    height: 200px;
+    
+}
+#text1{
+    font-size:28px;
+    display: inline;
+}
+.unlock{
+    font-size: 60px;
+}
+body{
+    background-color:#ececec;
+}
+.pagewhy{
+    left:-255px;
+    
+}
+
+.hover--underline {
+    padding-bottom: 5px;
+    padding-bottom: 0.3125rem;
+    border-bottom: 2px solid transparent; }
+#py{
+    position: absolute;
+    left:170px;
+    width:80px;
+    top:180px;
+    height:80px;
+}
+
+#code{
+    position: absolute;
+    left:395px;
+    top:180px;
+    width:80px;
+    height:80px;
+}   
+
+#logo{
+    position: absolute;
+    left:310px;
+    top:30px;
+    width:230px;
+    height:90px;
+}
+
+#hcj{
+    position: absolute;
+    left:140px;
+    width:365px;
+    top:-40px;
+    height:250px;
+}
+
+#excel{
+    position: absolute;
+    left:280px;
+    width:80px;
+    top:180px;
+    height:75px;
+}
+#edition{
+    font-size: 44px;
+}
+#bikestart,#map1{
+    position: absolute;
+    right:-100px;
+    top:290px;
+    width:350px;
+    height:180px;
+}
+#map1{
+    top:500px;
+    height:220
+   
+}
+
+#br{
+    position: absolute;
+    left:205px;
+    width:45px;
+    top:250px;
+    height:35px;
+}   
+
+#gl{
+    position: relative;
+    height:70px;
+    width: 70px;
+    top:27px;
+    left:20px;
+
+}
+
+.static{
+    align-self: center;
+    position: relative;
+    height:600px;
+    width:1000px;
+}
+.descr{
+    left:-60px;
+    text-align: center;
+    font-size: 34px;
+    color: rgb(114, 47, 47);
+    top:-20px;
+    position: relative;
+}

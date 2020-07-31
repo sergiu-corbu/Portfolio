@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/webslides.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>Presentation</title>
+</head>
+
+<body>
+    <main role="main">
+        <article id="webslides" class="horizontal">
+    
+        <section> <!--homepage-->
+            <div class="wrap">
+                <h1><strong>Interactive Maps with Python</strong></h1><br>
+                <h2 id="edition"><i>New York edition</i></h2>
+                <img src="assets/citybikelogow.png" id="logo"><br>
+                <p class="text-intro">Made with️ ❤️ in Oradea, © 2020 Corbu Sergiu</p>
+                <p><a href="https://github.com/thereal-corbusergiu/Interactive-Maps-with-Python" target="blank" class="button zoomIn">Download the code</a></p>
+                <img src="assets/code.png" id="br">
+                <a href="https://www.citibikenyc.com/" target="blank" class="unlock">
+                    <span class="bracket">&#8594;</span> <p id="text1">Unlock a bike</p></a>
+            </div>
+        </section>
+
+        <section class="pagewhy"> <!--why the project-->
+            <div class="wrap size-50 aligncenter">
+                <h2><strong>Why Interactive Maps?</strong></h2>
+                <p class="text-intro">Unlock the traffic problem in NYC</p>
+                <div class="bg-white shadow">
+                    <ul class="flexblock reasons">
+                        <li>
+                            <h2>Real time traffic congestion and station availability predictions</h2>
+                            <p>This project can be adapted to all the needs the customer will request, being able to show multiple layers or custom maps.  </p>
+                        </li>
+                        <li>
+                            <h2>Accurate data interpretation & reports</h2>
+                            <p>Every data analyst will find this application a great tool in their day to day problems, such as finding block-points or spotting the undercapacitated stations.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column">
+            <img src="assets/bike_start.jpg" id="bikestart">
+            <img src="assets/map1.png" id="map1">
+            </div>
+        </section>
+
+
+        <section>
+            <div class="wrap">
+                <div class="grid vertical-align">
+                    <div class="column">
+                        <h3><strong>The core technology of the project</strong></h3>
+                        <p class="text-intro"> <i><br>You can see a monthly simulation of all the bike trips by hour and other interactive maps
+                        powered by Python, Folium and some web develompent technologies such as HTML, CSS, JavaScript and WebSlides.</i></p>
+                    </div>
+                    <div class="column">
+                        <img src="assets/hcj.png" id="hcj">
+                        <img src="assets/1200px-Python-logo-notext.svg.png" id="py">
+                        <img src="assets/vscode_logo.png" id="code">
+                        <img src="assets/github-logo.png" id="excel">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section> <!--module view-->
+            <div class="wrap">
+                <h2><strong>Modules</strong></h2>
+                <ul class="flexblock gallery">
+                    <li>
+                        <a href="CityBike/StaticMap.html" target="blank">
+                            <figure>
+                                <img src="assets/fig1.jpg" alt="">
+                                <figcaption><h2>StaticMap</h2></figcaption>
+                            </figure>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="CityBike/LiveMap.html" target="blank">
+                            <figure>
+                                <img src="assets/fig2.jpg" alt="">
+                                <figcaption><h2>LiveMap</h2></figcaption>
+                            </figure>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="CityBike/HeatMap.html" target="blank">
+                            <figure>
+                                <img src="assets/fig3.jpg" alt="">
+                                <figcaption><h2>HeatMap</h2></figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section> <!-- static map -->
+            <div class="static">
+                <h3 class="descr">StaticMap</h3>
+                <iframe src="CityBike\StaticMap.html" height="600" width="900"></iframe>
+            </div>
+        </section>
+        
+        <section> 
+            <div class="static">
+                <h3 class="descr">StaticMap</h3>
+                <iframe src="CityBike\LiveMap.html" height="600" width="900"></iframe>
+            </div>
+        </section>
+
+        <section> 
+            <div class="static">
+                <h3 class="descr">HeatMap</h3>
+                <iframe src="CityBike\HeatMap.html" height="600" width="900"></iframe>
+            </div>
+        </section>
+
+        <section class="slide-bottom">
+            <div class="wrap">
+              <div class="content-right text-serif">
+                <h2><strong>Thank You!</strong></h2>
+                <p>Follow future versions of the project by accessing my GitHub account down below:</p>
+                <p>
+                <a href="https://github.com/thereal-corbusergiu?tab=repositories" target="blank">@thereal-sergiucorbu</a>
+                <a href="https://github.com/thereal-corbusergiu?tab=repositories" target="blank"><img src="assets/github-logo.png" alt="" id="gl"></a>
+                </p>
+              </div>
+            </div>
+          </section>
+
+        </article>
+    </main>
+
+    <script src="js/webslides.js"></script>
+    <script>window.ws = new WebSlides();</script>
+</body>
+</html>
